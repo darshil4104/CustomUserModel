@@ -84,8 +84,12 @@ AUTH_USER_MODEL = 'user.User'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME':'d2uv9mddqhivji',
+        'USER': 'uratptzyheyinw',
+        'PASSWORD': 'f71085550a4954209967666c259da18e7e2f6d5368a3028381596b3ef11b6e0a',
+        'HOST': 'ec2-54-86-170-8.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
